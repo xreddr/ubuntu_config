@@ -1,0 +1,10 @@
+/* /home/usr/.config/gtk-3.0 */
+
+.thunar .standard-view .view {
+	background-image:url("bg.jpg");
+    background-size: cover;
+    background-position: bottom right;
+}
+
+.thunar .standard-view .view * { background-image: none; }
+.thunar .standard-view .view * { background: transparent; color: black; }
