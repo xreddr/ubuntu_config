@@ -8,3 +8,14 @@
 
 .thunar .standard-view .view * { background-image: none; }
 .thunar .standard-view .view * { background: transparent; color: black; }
+
+.thunar .sidebar .view { color: aquamarine; background: purple; }
+.thunar .sidebar .view:not(:selected) { background-color: transparent;}
+.thunar .sidebar .view:selected { background: transparent; border-left: 4px solid red; }
+.thunar .sidebar { background-color: blue; }
+.thunar statusbar { 
+    background-color: red;
+    margin: 0 -10px;
+    padding: 0 4px;
+    border-top: 1px solid yellow;
+}
